@@ -1,0 +1,176 @@
+body{
+	font-family: 'Montserrat';
+}
+
+
+/*Navbar*/
+
+.navbar{
+	padding:0 0 4rem;
+}
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0 18px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2rem;
+	font-family: "Montserrat-light"
+}
+
+
+/*Title*/
+
+#title{
+	background-color: #ff4c68;
+	color: White;
+}
+
+
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+
+.title-img {
+	width:300px;
+	height: 600px;
+	transform: rotate(25deg);
+	position: absolute;
+	left:40%;
+}
+h1{
+	/*text-decoration-color: White;*/
+	font-family: 'Montserrat-Black',sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+	
+}
+.downloaded-buttons{
+	margin: 5% 3% 5% 0;
+}
+/*Features*/
+
+p{
+	color: grey;
+	font-size: 0.8rem;
+}
+
+h3{
+	font-family: 'Montserrat-bold';
+	font-size: 1.5rem;
+	font-weight:900;
+	text-align: center;
+}
+
+#features{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+	}
+
+.features-icon{
+	color:#ef8172 ;
+}
+.features-icon:hover{
+	color:#ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials{
+	
+	text-align: center;
+	background-color: #ef8172;
+	color:#fff;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+h2{
+	font-family: 'Montserrat-bold'
+	font-size:3rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.testimonial-img{
+	width:25%;
+	border-radius: 100%;
+	padding:40px;
+}
+
+
+/*Press*/
+
+#press{
+	background-color:#ef8172;
+	text-align: center;
+	padding-bottom: 3%; 
+}
+
+.press-logo{
+	width: 13%;
+	margin: 20px 20px 50px;
+}
+
+
+
+/*Pricing Section*/
+#pricing{
+	padding:100px;
+	text-align: center;
+}
+
+
+.pricing-column{
+	padding:3% 2%;
+	
+}
+
+.btn-bg-clr{
+	background-color: #f39189;
+}
+@media (max-width: 1028px)
+{
+
+	#title{
+		text-align: center;
+	}
+	.title-img{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
+/*Call to Action*/
+#cta{
+	background-color: #ff4c68;
+	color: White; 
+	padding:80px;
+	text-align: center;
+}
+
+.cta-heading{
+	font-family: "Montserrat-Black", sans-serif;
+	font-size:2.0rem;
+	font-weight: 800;
+	line-height: 1.5;
+	text-align: center;
+}
+/* Footer*/
+#footer{
+	text-align: center;
+	padding:50px;
+	background-color: #fff;
+}
+.social-media-icon{
+	padding:10px;
+}
